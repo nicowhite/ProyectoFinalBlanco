@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.contenedor-cartas {
+  display: flex;
+  justify-content: space-around;
+}
+
+.agregar {
+  background-color: #6610f2;
+  border-color: #6610f2;
+}
+
+#cart {
+  margin: 3rem auto;
+  width: 50%;
+}
+
+#cart h2 {
+  text-align: center;
+}
