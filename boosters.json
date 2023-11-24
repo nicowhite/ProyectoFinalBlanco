@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "nombre": "Eldraine Draft Booster",
+      "precio": 15,
+      "imagen": "images/booster.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Eldraine Set Booster",
+      "precio": 11,
+      "imagen": "images/booster2.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "The Brothers War Booster",
+      "precio": 24,
+      "imagen": "images/booster3.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "Phyrexia Draft Booster",
+      "precio": 6,
+      "imagen": "images/booster4.jpg"
+    }
+  ]
+  

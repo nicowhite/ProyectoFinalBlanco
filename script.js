@@ -31,6 +31,10 @@ const boosters = [
 
 
 
+
+
+
+
 // funcion para agregar productos al carrito, chequea si ya existe segun el id, e incrementa la cantidad o agrega al carro
 function agregarAlCarrito(producto) {
   const productoExistente = carrito.find((item) => item.id === producto.id);
@@ -109,5 +113,7 @@ function vaciarCarrito() {
 
   localStorage.setItem("carrito", JSON.stringify(carrito));
 }
+
+
 
 actualizarCarrito();
