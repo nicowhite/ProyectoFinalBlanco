@@ -1,4 +1,6 @@
 
+
+
 // si ya existe en el local storage, es parseado a un Array, si no se asigna un array vacio a carrito 
 const carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 
@@ -111,7 +113,13 @@ function vaciarCarrito() {
   carrito.length = 0;
   actualizarCarrito();
 
-  localStorage.setItem("carrito", JSON.stringify(carrito));
+  Swal.fire({
+    title: "Carrito Eliminado!",
+    icon: "info"
+  });
+
+  
+  localStorage.removeItem("carrito", JSON.stringify(carrito));
 }
 
 
