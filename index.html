@@ -12,55 +12,48 @@
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./styles/styles.css">
   <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="@sweetalert2/themes/dark/dark.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-
-
-
   <div class="contenedor-cartas">
-    <div class="card" style="width: 18rem;">
-      <img src="./images/booster.jpg" class="card-img-top" alt="...">
+    <div class="card" style="width: 18rem;" data-bs-theme="dark">
+      <img src="./images/booster01.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Eldraine Draft Booster</h5>
-        <p class="card-text">$15</p>
+        <p class="card-text">$115</p>
         <a href="#0" class="btn btn-primary agregar">Agregar al Carrito</a>
       </div>
     </div>
-
-    <div class="card" style="width: 18rem;">
-      <img src="./images/booster2.jpg" class="card-img-top" alt="...">
+    <div class="card" style="width: 18rem;" data-bs-theme="dark">
+      <img src="./images/booster02.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Eldraine Set Booster</h5>
-        <p class="card-text">$11</p>
+        <p class="card-text">$160</p>
         <a href="#0" class="btn btn-primary agregar">Agregar al Carrito</a>
       </div>
     </div>
-
-    <div class="card" style="width: 18rem;">
-      <img src="./images/booster3.jpg" class="card-img-top" alt="...">
+    <div class="card" style="width: 18rem;" data-bs-theme="dark">
+      <img src="./images/booster03.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">The Brothers War Booster</h5>
-        <p class="card-text">$24</p>
+        <p class="card-text">$210</p>
         <a href="#0" class="btn btn-primary agregar">Agregar al Carrito</a>
       </div>
     </div>
-
-    <div class="card" style="width: 18rem;">
-      <img src="./images/booster4.jpg " class="card-img-top" alt="...">
+    <div class="card" style="width: 18rem;" data-bs-theme="dark">
+      <img src="./images/booster04.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Midnight Hunt Booster</h5>
-        <p class="card-text">$6</p>
+        <p class="card-text">$199</p>
         <a href="#0" class="btn btn-primary agregar">Agregar al Carrito</a>
       </div>
     </div>
   </div>
-
-
-
-
-
 
 
   <div id="cart">
@@ -69,14 +62,8 @@
       <!-- donde se muestran los items del carrito  -->
     </ul>
     <p class="total">Total: $<span id="total">0.00</span></p>
-
-
     <button id="clear-cart-button" class="btn btn-danger">Vaciar</button>
-
   </div>
-
-
-
 
 
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
