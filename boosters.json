@@ -1,27 +1,26 @@
 [
-    {
-      "id": 1,
-      "nombre": "Lord of the Rings Booster",
-      "precio": 115,
-      "imagen": "images/booster01.png"
-    },
-    {
-      "id": 2,
-      "nombre": "Commander Legends Booster",
-      "precio": 160,
-      "imagen": "images/booster02.png"
-    },
-    {
-      "id": 3,
-      "nombre": "Crimson Vow Booster",
-      "precio": 210,
-      "imagen": "images/booster03.png"
-    },
-    {
-      "id": 4,
-      "nombre": "The Brother Wars Booster",
-      "precio": 199,
-      "imagen": "images/booster04.png"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "nombre": "Lord of the Rings Booster",
+    "precio": 115,
+    "imagen": "images/booster01.png"
+  },
+  {
+    "id": 2,
+    "nombre": "Commander Legends Booster",
+    "precio": 160,
+    "imagen": "images/booster02.png"
+  },
+  {
+    "id": 3,
+    "nombre": "Crimson Vow Booster",
+    "precio": 210,
+    "imagen": "images/booster03.png"
+  },
+  {
+    "id": 4,
+    "nombre": "The Brother Wars Booster",
+    "precio": 199,
+    "imagen": "images/booster04.png"
+  }
+]
