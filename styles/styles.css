@@ -20,6 +20,11 @@ body {
   border-color: #6610f2;
 }
 
+.agregar:hover{
+  background-color: #4805b4;
+  border-color: #4805b4;
+}
+
 #cart {
   margin: 3rem auto;
   width: 50%;
