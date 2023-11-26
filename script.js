@@ -10,10 +10,14 @@ document.addEventListener("DOMContentLoaded", async () => {
     console.error("Error:", error);
   }
 
+
+  // funcion que busca los booster de mi json
   function obtenerBoosters() {
     return fetch("boosters.json").then((response) => response.json());
   }
 
+
+  // funcion que agrega los booster al carrito y los aumenta si ya existen
   function agregarAlCarrito(producto) {
     const productoExistente = carrito.find((item) => item.id === producto.id);
 
@@ -28,6 +32,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     actualizarCarrito();
   }
 
+
+  // funcion que actualiza el carrito 
   function actualizarCarrito() {
     const itemsCarrito = document.getElementById("cart-items");
     const totalDisplay = document.getElementById("total");
@@ -79,6 +85,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     vaciarCarritoButton.addEventListener("click", vaciarCarrito);
   }
 
+  // vacia el carrito y lo borra del localStorage, tira un sweet alert cuando se le da click
   function vaciarCarrito() {
     carrito.length = 0;
     actualizarCarrito();
