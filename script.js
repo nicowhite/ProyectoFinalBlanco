@@ -98,6 +98,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     localStorage.removeItem("carrito");
   }
+  
 });
 
 
